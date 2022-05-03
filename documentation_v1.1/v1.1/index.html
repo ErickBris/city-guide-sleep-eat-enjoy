@@ -1,0 +1,373 @@
+<!DOCTYPE html>
+<html>
+
+<head lang="en">
+	<meta http-equiv="content-type" content="text/html;charset=utf-8">
+	<title>City Guide</title>
+	<!-- Framework CSS -->
+	<link rel="stylesheet" href="assets/blueprint-css/screen.css" type="text/css" media="screen, projection">
+	<link rel="stylesheet" href="assets/blueprint-css/print.css" type="text/css" media="print">
+	<!--[if lt IE 8]><link rel="stylesheet" href="assets/blueprint-css/ie.css" type="text/css" media="screen, projection"><![endif]-->
+	<link rel="stylesheet" href="assets/blueprint-css/plugins/fancy-type/screen.css" type="text/css" media="screen, projection">
+	<style type="text/css" media="screen">
+		p,
+		table,
+		hr,
+		.box {
+			margin-bottom: 25px;
+		}
+
+		.box p {
+			margin-bottom: 10px;
+		}
+	</style>
+</head>
+
+<body>
+	<div class="container">
+
+		<h3 class="center alt">&ldquo;City Guide&rdquo; Documentation by &ldquo;dmb TEAM&rdquo; v1.1</h3>
+
+		<hr>
+		<p style="text-align: center;"><img src="assets/images/cc_icon_80x80.png" /></p>
+		<h1 class="center">&ldquo;City Guide&rdquo;</h1>
+
+		<div class="borderTop">
+			<div class="span-6 colborder info prepend-1">
+				<p class="prepend-top">
+					<strong>
+					Created: 15.07.2015<br>
+					Updated: 03.08.2015<br>
+					By: dmb TEAM<br>
+					</strong>
+				</p>
+			</div>
+			<!-- end div .span-6 -->
+
+			<div class="span-12 last">
+				<p class="prepend-top append-0">Thank you for purchasing our android application. If you have any questions that are beyond the scope of this help file, please feel free to email us via the Contact Form <a target="_blank" href="http://codecanyon.net/user/dmbTeam">here</a>. Be sure not to contact us via email, if you already posted a comment or vice versa. Posting duplicate requests won't speed up, but will slow down the process of getting reply.</p>
+			</div>
+		</div>
+		<!-- end div .borderTop -->
+		<hr />
+
+		<div style="background-color: #ffd0d0; padding: 10px; margin-bottom: 20px;">
+			<h2>Important</h2>
+
+				<strong>What stays behind Support:</strong>
+				<ul>
+					<li>Responding to questions or problems regarding the item and its features</li>
+					<li>Fixing bugs and reported issues</li>
+				</ul>
+				<strong>What is OUT of the Support scope:</strong>
+				<ul>
+					<li>Customization and installation services</li>
+					<li>Support for third party software and plug-ins</li>
+				</ul>
+
+		</div>
+
+		<hr>
+
+		<h2 id="toc" class="alt">Table of Contents</h2>
+		<h3>I. How to configure/set up the project?</h3>
+		<ol>
+			<li><a href="#tools">What tools you need?</a>
+			</li>
+			<li><a href="#import">Import the project into Android Studio</a>
+			</li>
+		</ol>
+
+		<h3>II. How to Customize "City Guide"?</h3>
+		<ol>
+			<li><a href="#settings">Settings</a>
+			</li>
+			<li><a href="#translate">Translate / Change the texts</a>
+			</li>
+			<li><a href="#appicon">How to Customize the Application Icon?</a>
+			</li>
+			<li><a href="#googleplaces">Google Places - How to get Google API Key?</a>
+			</li>
+			<li><a href="#tutorials">Useful tutorials</a>
+			</li>
+			<li><a href="#faqs">FAQs</a>
+			</li>
+		</ol>
+
+		<hr />
+
+		<h3>I. How to configure/set up the project?</h3>
+		<h3 id="tools"><strong>1. What tools you need?</strong> - <a href="#toc">top</a></h3>
+		<p>
+			The product is created within Android Studio IDE. You can download it from here: <a href="http://developer.android.com/sdk/index.html" target="_blank">Download Android Studio.</a>. In addition, on this page you can find useful information how the IDE is working, features, system requirements, tutorials and so on.
+		</p>
+
+		<hr />
+
+		<h3 id="import"><strong>2. Import the project into Android Studio</strong> - <a href="#toc">top</a></h3>
+		<p><strong>Step 1:</strong> Extract the content from the .zip file that you've just downloaded from CodeCanyon. Then start <strong>Android Studio</strong> and when you see the <strong>Welcome to Android Studio screen</strong> click on <strong>Open an existing Android Studio project</strong>
+		</p>
+		<p><img src="assets/images/import-1.jpg">
+		</p>
+
+		<p><strong>Step 2:</strong> After that you will get a pop-up and you should locate where you extracted the .zip file. Select the root directory:</p>
+		<p><img src="assets/images/import-2.png">
+		</p>
+
+		<p><strong>Step 3:</strong> When you click the OK button, you will see another pop-up (if you have already used Android Studio, this dialog won't show up), where you should check the <strong>Use local gradle distribution</strong> option. And here you should locate where is your local Gradle distribution. Of course you should download it first from <a href="https://www.gradle.org/downloads" target="_blank">here</a>. When you are ready, click Ok</p>
+		<p><img src="assets/images/import-3.jpg">
+		</p>
+
+		<p><strong>Step 4:</strong> After <strong>Step 4</strong>, you will see the 1st screen below. Just click on the <strong>Project</strong> and you will see the project's structure (2nd screen below):</p>
+		<p><img width="800" src="assets/images/import-4.jpg">
+		</p>
+		<p><img width="800" src="assets/images/import-5.png">
+		</p>
+
+		<p><strong>Step 5:</strong> We can perform quick test, if everything is ok by selecting the <strong>app</strong> folder on the left and clicking the green <strong>Run</strong> button. This way we will launch the app on a Emulator or real device, if you have connected it to your machine. Currently we don't have real device connected (as we can see from the dialog), so we will run it on a <strong>Emulator Nexus 5 API 21 x86</strong>.
+		<p>
+			<img width="800" src="assets/images/import-6.png">
+		</p>
+		<p>That's it. You are ready to continue with the customization.</p>
+
+		<hr>
+
+		<h3>II. How to Customize "City Guide"</h3>
+		<h3 id="settings"><strong>1. Settings </strong> - <a href="#toc">top</a></h3>
+		<p>
+			The main settings of the app are place within the <strong>AppSettings.java</strong> class. It can be found within the <strong>app/java/com.dmb.cityguide/settings</strong> folder:
+		</p>
+		<p>
+			<img width="800" src="assets/images/settings.png" />
+		</p>
+		<p>
+			There you will see several constants, which are defined:
+		</p>
+		<ul>
+			<li><strong>public static final boolean ENABLE_ADMOB = true;</strong> - Enable/Disable AdMob Ads. If you want to disable them, just set the value from <strong>true</strong> to <strong>false</strong>. If you want to receive real ads, but not test ads, you have to get your unique AdMob ID and to put it within <a href="#translate">strings.xml</a> file. Currently the app is using a test AdMob ID, which only receives Test Ads.</li>
+			<li><strong>public static final double LATITUDE = 52.5167;</strong> - Latitude coordinate of the desired city (example: Berlin Latitude).</li>
+			<li><strong>public static final double LONGITUDE = 13.3833;</strong> - Longitude coordinate of the desired city (example: Berlin Longitude).</li>
+			<li><strong>public static final int MAP_INITIAL_ZOOM = 14;</strong> - Defines the initial map zoom.</li>
+			<li><strong>public static final int GOOGLE_PLACES_LOCATION_RADIUS = 1000;</strong> - Radius in meters for location searches.</li>
+			<li><strong>public static final int GOOGLE_PLACES_SEARCH_RADIUS = 10000;</strong> - Radius in meters for string (textual) searches.</li>
+			<li><strong>public static final String TOWN = "Berlin";</strong> - The label of the city, which is displayed on the Home Screen.</li>
+			<li><strong>public static final String COUNTRY = "Germany";</strong> - The label for the country, which is displayed below the city label on the Home Screen.</li>
+			<li><strong>public static final String OPEN_WEATHER_MAP_KEY = "bf24a6ac9387a41772c88be020ff4ef8";</strong> - Your OpenWeather Map Key.</li>
+			<li><strong>public static final String XMLResourcePath = "about.xml";</strong> - The name of the XML file, which will be used for displaying the information on the About Screen.</li>
+			
+		</ul>
+		<h4><strong>1.1. How to get the Latitude and Longitude coordinates?</strong></h4>
+		<p>
+			You can directly take those coordinates using the Google Maps. Just open Google Maps with your browser and search for the desired city. For example, if you search for Berlin, the URL within the browser will change to the following:
+		</p>
+		<p>
+			URL: <strong>https://www.google.bg/maps/place/Berlin,+Germany/@<strong style="color: red">52.5075419,13.4251364</strong>,11z/data=!3m1!4b1!4m2!3m1!1s0x47a84e373f035901:0x42120465b5e3b70?hl=en</strong>
+		</p>
+		<p>
+			The red colored numbers (divided by comma) are the Latitude (1st one) and the Longitude (2nd one). Just copy those values and paste them within the <strong>AppSettings.java</strong> file. This way, the app will display the places within that city.
+		</p>
+		<p>After the coordinates, you should change the labels (Town and Country) from within the <strong>AppSettings.java</strong> file. So, if you want to use the coordinates for Munich, you should change the town label to Munich and the country label to Germany.</p>
+		<p>
+			Or you can use the following online tool the get the coordinates: http://www.mapcoordinates.net/en
+		</p>
+		
+		<h4><strong>1.2. How to get the OpenWeather Map Key?</strong></h4>
+		<p>You have to register to http://openweathermap.org/ and following this <a href="http://openweathermap.org/appid" target="_blank">TUTORIAL</a> to get your <strong>Key</strong> and to enter it within the <strong>AppSettings.java</strong> file. This way, the app will get the weather forecast for the desired city.</p>
+		
+		<h4><strong>1.3. How to get Google Analytics ID?</strong></h4>
+		<p>
+			<strong>&nbsp;&nbsp; Step 1: Open http://www.google.com/analytics/ and Sign In to Google Analytics</strong>
+		</p>
+		<p>
+			<img width="800" src="assets/images/1-ga.png" />
+		</p>
+		<p>
+			<strong>&nbsp;&nbsp; Step 2: Once you have signed, go to Admin</strong>
+		</p>
+		<p>
+			<img width="800" src="assets/images/2-ga.png" />
+		</p>
+		<p>
+			<strong>&nbsp;&nbsp; Step 3: Click Create new account</strong>
+		</p>
+		<p>
+			<img width="800" src="assets/images/3-ga.png" />
+		</p>
+		<p>
+			<strong>&nbsp;&nbsp; Step 4: Select Mobile app.</strong>
+		</p>
+		<p>
+			<strong>&nbsp;&nbsp; Step 5: Enter the App Name.</strong>
+		</p>
+		<p>
+			<strong>&nbsp;&nbsp; Step 6: Select an Industry Category and the Reporting Time Zone</strong>
+		</p>
+		<p>
+			<strong>&nbsp;&nbsp; Step 7: Click Get Tracking ID.</strong>
+		</p>
+		<p>
+			<strong>&nbsp;&nbsp; Step 8: Paste the ID to the  <a href="#translate">strings.xml</a> file (string name "tracker_id").</strong>
+		</p>
+		<p>
+			<em>&nbsp;&nbsp; --> Additonal Tutorials for Google Analytics: <a href="https://support.google.com/analytics/answer/1042508">https://support.google.com/analytics/answer/1042508</a></em>
+		</p>
+		
+		<h4><strong>1.4. How to edit the About Screen?</strong></h4>
+		<p>
+			About Screen data is controlled by the following XML file: <strong>app/assets/about.xml</strong>.
+		</p>
+		<p>
+			<img width="800" src="assets/images/about-xml.png" />
+		</p>
+		<p>
+			To edit the content, just open the file within Android Studio and you will see that there two main sections. The first one is <strong>photos</strong> and the second one is <strong>description</strong>. The <strong>photos</strong> section can contain multiple <strong>photo</strong> elements, where each <strong>photo</strong> has a child element <strong>path</strong>. Just edit the <strong>path</strong> content with the name of the image file that you want to see within the About screen. Of course, first you have to create the image to to place it within the project's folder <strong>app/res/drawable-xxhdpi</strong>. If you want to add more images, just copy and paste a <strong>photo</strong> item:
+		</p>
+		<p>
+			<img src="assets/images/about-xml-photo.png" />	
+		</p>
+		<p>Please note that you should skip the file extension. So if the image file is <strong>berlin1.png</strong>, you should enter within the <strong>path</strong> only the <strong>berlin1</strong> text. Plus, you should use PNG images.</p>
+		<p>
+			For the About Screen's textual content, just replace the Berlin's description text with yours within the <strong>content</strong> item.
+		</p>
+		<p>
+			<img src="assets/images/about-xml-content.png" />
+		</p>
+		<hr />
+
+		<h3 id="translate"><strong>2. Translate / Change the texts used within the template</strong> - <a href="#toc">top</a></h3>
+		<p>
+			All of the used texts are stored within a single .xml file, named <strong>strings.xml</strong>, which can be found here <strong>app/ress/values/strings.xml</strong>
+		</p>
+		<p>
+			<img src="assets/images/translate-strings.png" width="800" />
+		</p>
+		<p>Available strings for customizations:</p>
+		<ul>
+			<li><strong>name="app_name"</strong> - enter the desired app name, which appear below the app icon.</li>
+			<li><strong>name="action_settings"</strong> - Settings label, but it's used only for demonstration, not in the real product.</li>
+			
+			<li><strong>name="rating_count"</strong> - reviews label for the Reviews Screen.</li>
+			<li><strong>name="image_count"</strong> - the label for the picture.</li>
+			
+			<li><strong>name="search_in"</strong> - search label.</li>
+			
+			<li><strong>name="weather_forecast"</strong> - Weather forecast label</li>
+			<li><strong>name="about"</strong> - About label on the Home Screen</li>
+			<li><strong>name="home_sleep"</strong> - Sleep label on the Home Screen</li>
+			<li><strong>name="home_eat"</strong> - Eat label on the Home Screen</li>
+			<li><strong>name="home_enjoy"</strong> - Enjoy label on the Home Screen</li>
+			<li><strong>name="arround_me"</strong> - Around Me Button label on the Home Screen</li>
+			<li><strong>name="home_menu_favs"</strong> - Label for the favorites places within the Overflow Menu (behind the three dots icon)</li>
+			<li><strong>name="home_menu_rate"</strong> - Label for the feedback item within the Overflow Menu (behind the three dots icon)</li>
+			
+			
+			<li><strong>name="list_label_price_level"</strong> - Label for the price level text within List of Places Screen</li>
+			<li><strong>name="list_label_rating"</strong> - Label for the rating text within List of Places Screen</li>
+			
+			<li><strong>name="place_detail_photos_counter"</strong> - dummy label for the pictures count</li>
+			<li><strong>name="place_detail_label_address"</strong> - Address section label</li>
+			<li><strong>name="place_detail_label_phone"</strong> - Phone(s) section label</li>
+			<li><strong>name="place_detail_label_tag"</strong> - Tag(s) section label</li>
+			<li><strong>name="place_detail_label_price_level"</strong> - Price Level section label</li>
+			<li><strong>name="place_detail_label_no_value"</strong> - Text to be displayed, when there is no data</li>
+			<li><strong>name="place_detail_label_rating"</strong> - Rating section label</li>
+			
+			<li><strong>name="no_internet_connection"</strong> - Error message, when there is no internet</li>
+			
+			<li><strong>name="no_weather"</strong> - Error message, when there is no weather service</li>
+			
+			<li><strong>name="town_range"</strong> - Toast message, when you are outside of the city boundaries</li>
+			
+			<li><strong>name="current_location_issue"</strong> - Toast message, when your GPS is switched off or there is other reason, which prevents the app to locate you</li>
+			
+			<li><strong>name="google_api_key"</strong> - your google maps private key - <a href="#googleplaces">check here how to get the key</a></li>
+			
+			<li><strong>name="your_are_here"</strong> - Dummy text for presenting your position</li>
+			
+			<li><strong>name="turn_on_gps"</strong> - Toast message to remind you to turn your GPS on</li>
+			
+			<li><strong>name="tracker_id"</strong> - Your Google Analytics ID</li>
+			<li><strong>name="admob_id"</strong> - Your AdMob Ads ID</li>
+		</ul>
+		<p>
+			Just change the texts between the string element, marked with red: &lt;string&gt; <em style="color: red;">TRANSLATABLE_TEXT</em> &lt;/string&gt;.
+		</p>
+
+		<hr />
+		
+		
+
+		<h3 id="appicon"><strong>3. How to customize the Application Icon</strong> - <a href="#toc">top</a></h3>
+		<p>
+			The app uses, as application icon, the following image files for the different resolutions:
+		</p>
+		<ul>
+			<li><strong>app/src/main/res/drawable-xxxhdpi/ic_launcher.png</strong> - 192x192 pixels</li>
+			<li><strong>app/src/main/res/drawable-xxhdpi/ic_launcher.png</strong> - 144x144 pixels</li>
+			<li><strong>app/src/main/res/drawable-xhdpi/ic_launcher.png</strong> - 96x96 pixels</li>
+			<li><strong>app/src/main/res/drawable-hhdpi/ic_launcher.png</strong> - 72x72 pixels</li>
+			<li><strong>app/src/main/res/drawable-mdpi/ic_launcher.png</strong> - 48x48 pixels</li>
+		</ul>
+		<p>
+			Here is the example of the application icon (CityGuide - 3rd item on the 2nd row):
+		</p>
+		<p>
+			<img src="assets/images/appicon.png" />
+		</p>
+		<p>
+			So you have to create your own application icon and to replace the default one. <strong style="color: red;">The sizes for the different resolutions, the file name (ic_launcher) and the file extension (.png) MUST be the same.</strong>.
+		</p>
+		<p>
+			<img src="assets/images/ic-launcher-sizes.png" />
+		</p>
+		<p>For best epxerience, you have to create all of them and to place the file within the needed folder, e.g. drawable-mdpi, drawable-hdpi, drawable-xhdpi, drawable-xxhdpi and drawable-xxxhdpi. Of course you can always provide the biggest size (e.g. 192x192 pixels, within the drawable-xxxhdpi folder) and Android OS will take care to scale down the icon for the different resolutions.</p>
+
+		<hr />
+		
+		<h3 id="googleplaces"><strong>4. Google Places - How to get Google API Key? </strong> - <a href="#toc">top</a></h3>
+		<p>
+			In order to enable Google Places functionality (which is the base of the app), you need to provide <strong>Google Places Key</strong>. You need to paste it in the  <a href="#translate"><strong>strings.xml</strong></a>, wthin the key <strong>google_api_key</strong>.
+		</p>
+		<h4>Procedure to get the key:</h4>
+		<ol>
+			<li>Visit the following URL: https://code.google.com/apis/console</li>
+			<li>Sign In</li>
+			<li>From the top dropdown, create New Project</li>
+			<li>Open the project by selecting it from the same dropdown</li>
+			<li>From the left menu choose <strong>APIs &amp; Auth -> APIs</strong></li>
+			<li>Select the API: Google Maps Android API and click Enable API</li>
+			<li>Do the same thing from <strong>6</strong> for these APIs: Google Places API for Android, Google Places API Web Service</li>
+			<li>Plus, enable Social APIs -> Google+ API</li>
+			<li>Again from the left menu choose <strong>Credentials -> Create new Key</strong>. Select Android Key and choose create, without enter anything in the text field. You can see your <strong>API Key</strong> after that in the same (credentials) menu.</li>
+		</ol>
+		
+		<hr />
+		
+		<h3 id="tutorials"><strong>5. Useful tutorials</strong> - <a href="#toc">top</a></h3>
+		<p>
+			<strong>5.1.</strong> <a href="http://stackoverflow.com/questions/16804093/android-studio-rename-package/29092698#29092698" target="_blank">How can I change the package name?</a> - you need to do it, before uploading the app to Google Play Store.
+			<br>
+			<strong>5.2.</strong> <a href="http://developer.android.com/tools/publishing/app-signing.html" target="_blank">How to export certified apk file for Google Play Store (Official Documentation)</a> or <a href="https://www.udacity.com/wiki/ud853/course_resources/creating-a-signed-apk">Stackoverflow thread</a>
+			<br>
+			<strong>5.3.</strong> <a href="http://developer.android.com/distribute/tools/launch-checklist.html" target="_blank">Launch Checklist for Google Play Store</a>
+			<br>
+			<strong>5.4.</strong> <a href="http://developer.android.com/tools/publishing/publishing_overview.html" target="_blank">Publishing Android Application (Official Documentation).</a>
+
+		</p>
+
+		<h3 id="faqs"><strong>6. FAQs</strong> - <a href="#toc">top</a></h3>
+		<p>You can always check the product's <strong>Support Tab</strong> section (at CodeCanyon.net), where you can find a lot of already answered questions and solved issues. Plus, you can benefit from the <strong>Comments</strong> section (at CodeCanyon.net), where we've replied to a lot of questions too.</p>
+
+		<hr>
+
+		<p class="append-bottom alt large"><strong>&quot;City Guide&quot; by dmb TEAM</strong>
+		</p>
+		<p><a href="#toc">Go To Table of Contents</a>
+		</p>
+
+		<hr class="space">
+	</div>
+	<!-- end div .container -->
+</body>
+
+</html>
